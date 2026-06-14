@@ -34,13 +34,13 @@ This pipeline automates that entire workflow: from raw web data to a clean, anal
 ┌─────────────────────────────────────────────────────────────┐
 │                    ETL PIPELINE FLOW                        │
 │                                                             │
-│  🌐 Wikipedia        🔄 Transform         💾 Load           │
+│  🌐 Wikipedia        🔄 Transform         💾 Load          │
 │  ───────────         ───────────         ──────             │
-│  Web Scraping   →   Currency       →    CSV File           │
-│  (BeautifulSoup)    Conversion          SQLite DB          │
-│                     (USD→GBP            code_log.txt       │
-│                      USD→EUR                               │
-│                      USD→INR)                              │
+│  Web Scraping   →   Currency       →    CSV File            │
+│  (BeautifulSoup)    Conversion          SQLite DB           │
+│                     (USD→GBP            code_log.txt        │
+│                      USD→EUR                                │
+│                      USD→INR)                               │ 
 │                                                             │
 │  📋 Logging at every stage via code_log.txt                 │
 └─────────────────────────────────────────────────────────────┘
